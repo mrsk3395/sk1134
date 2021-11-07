@@ -1,5 +1,6 @@
 
-@Tech-abm
+
+@SK_KAZI
 Tech-abm Update infect.xo
  1 contributor
 63 lines (60 sloc)  1.92 KB
@@ -18,7 +19,7 @@ try:
 except OSError:
     pass
 
-abm = """
+sk = """
 \033[1;97m  ____  _  __   ___  _____ _____ ___ ____ ___    _    _
 / ___|| |/ /  / _ \|  ___|  ___|_ _/ ___|_ _|  / \  | |
 \___ \| ' /  | | | | |_  | |_   | | |    | |  / _ \ | |
@@ -39,11 +40,11 @@ abm = """
 
 def main():
     os.system("clear")
-    print(abm)
+    print(sk)
     os.system("cd load && python2 __loading__")
     os.system("clear")
-    print(abm)
-    print("\033[1;97m[\033[1;93m1\033[1;97m] Install infect tool for cloning")
+    print(sk)
+    print("\033[1;97m[\033[1;93m1\033[1;97m] Install sk tool for cloning")
     time.sleep(0.05)
     print("\033[1;97m[\033[1;93m2\033[1;97m] Install infect extracting tool")
     time.sleep(0.05)
@@ -52,12 +53,12 @@ def main():
     print("\033[1;97m-------------------------------------------------")
     mx()
 def mx():
-    tech_abm = raw_input("\n[!] Select a valid option : ")
-    if tech_abm =="1":
+    sk_kazi = raw_input("\n[!] Select a valid option : ")
+    if sk_kaI =="1":
         os.system("cd data && python2 data")
     if tech_abm =="2":
         os.system("cd exts && python2 exts")
-    if tech_abm =="0":
+    if sk_kazi =="0":
         print("")
         print("\033[1;92mTool Logout Successfull").center(50)
         print("")
